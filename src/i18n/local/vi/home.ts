@@ -1,0 +1,43 @@
+export default {
+  hero: {
+    tagline: "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc.",
+    bookButton: "BOOK YOUR STAY",
+  },
+  featured: {
+    journeyTitle: "Hành trình của HANOKI",
+    titleLine1: "Những chốn",
+    titleLine2: "nghỉ chân đặc biệt",
+    viewAll: "Xem tất cả phòng",
+  },
+  story: {
+    tagline: "Câu chuyện của HANOKI",
+    titleLine1: "Tìm kiếm khoảnh khắc",
+    titleLine2: "trọn vẹn",
+    titleLine3: "của riêng bạn",
+    bookNow: "Đặt phòng ngay",
+    featurePrivateSpace: "Không gian riêng tư",
+    featureEcoFriendly: "Thân thiện môi trường",
+    featureWellness: "Chăm sóc sức khỏe",
+    featureLocalFood: "Ẩm thực địa phương",
+    featureLocalCommunity: "Cộng đồng bản địa",
+  },
+  experience: {
+    taglineLine1: "TRẢI NGHIỆM",
+    taglineLine2: "HANOKI",
+    title: "Đa dạng trải nghiệm",
+    learnMore: "Tìm hiểu thêm",
+    item1Title: "Boutique Hotel",
+    item1Subtitle: "Thiết kế tinh tế, trải nghiệm sang trọng giữa thiên nhiên",
+    item2Title: "Ecolodge",
+    item2Subtitle: "Hòa mình vào thiên nhiên hoang dã bản địa",
+    item3Title: "Beach House",
+    item3Subtitle: "Ngôi nhà bên biển, nơi sóng vỗ về tâm hồn",
+  },
+  cta: {
+    title: "Dừng lại một chút. Ở lại lâu hơn",
+    subtitle: "Hàng trăm chốn nghỉ chân đang chờ đón bạn khám phá",
+    startBooking: "Bắt đầu đặt phòng",
+    prev: "Previous",
+    next: "Next",
+  },
+};

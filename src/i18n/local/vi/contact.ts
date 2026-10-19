@@ -1,0 +1,23 @@
+export default {
+  tagline: "Liên hệ",
+  title: "Chúng tôi luôn lắng nghe",
+  description:
+    "Có câu hỏi về đặt phòng, cần hỗ trợ hoặc muốn hợp tác? Hãy gửi tin nhắn cho chúng tôi.",
+  email: "Email",
+  phoneZalo: "Điện thoại / Zalo",
+  whatsapp: "WhatsApp",
+  address: "Địa chỉ",
+  addressValue: "162 Triệu Việt Vương, Quận Hai Bà Trưng, Hà Nội",
+  socialTitle: "Mạng Xã hội",
+  formName: "Họ và tên",
+  formEmail: "Email",
+  formMessage: "Tin nhắn",
+  formPlaceholderName: "Nguyễn Văn A",
+  formPlaceholderEmail: "hello@example.com",
+  formPlaceholderMessage: "Nội dung tin nhắn...",
+  maxChars: "Tối đa 500 ký tự",
+  submit: "Gửi tin nhắn",
+  success: "Cảm ơn bạn! Tin nhắn đã được gửi thành công.",
+  fillAllFields: "Vui lòng điền đầy đủ thông tin.",
+  genericError: "Đã có lỗi xảy ra, vui lòng thử lại sau.",
+};

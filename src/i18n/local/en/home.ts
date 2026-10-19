@@ -1,0 +1,43 @@
+export default {
+  hero: {
+    tagline: "At HANOKI, time slows down so you can savor every moment.",
+    bookButton: "BOOK YOUR STAY",
+  },
+  featured: {
+    journeyTitle: "The HANOKI Journey",
+    titleLine1: "Exceptional",
+    titleLine2: "places to stay",
+    viewAll: "View all rooms",
+  },
+  story: {
+    tagline: "The HANOKI Story",
+    titleLine1: "Find your",
+    titleLine2: "perfect",
+    titleLine3: "moment",
+    bookNow: "Book now",
+    featurePrivateSpace: "Private space",
+    featureEcoFriendly: "Eco-friendly",
+    featureWellness: "Wellness care",
+    featureLocalFood: "Local cuisine",
+    featureLocalCommunity: "Local community",
+  },
+  experience: {
+    taglineLine1: "EXPERIENCE",
+    taglineLine2: "HANOKI",
+    title: "Diverse experiences",
+    learnMore: "Learn more",
+    item1Title: "Boutique Hotel",
+    item1Subtitle: "Refined design, luxurious experience in the heart of nature",
+    item2Title: "Ecolodge",
+    item2Subtitle: "Immerse yourself in untamed indigenous nature",
+    item3Title: "Beach House",
+    item3Subtitle: "A seaside home where waves soothe the soul",
+  },
+  cta: {
+    title: "Take a pause. Stay a little longer",
+    subtitle: "Hundreds of unique stays are waiting for you to discover",
+    startBooking: "Start booking",
+    prev: "Previous",
+    next: "Next",
+  },
+};

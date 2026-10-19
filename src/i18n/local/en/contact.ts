@@ -1,0 +1,23 @@
+export default {
+  tagline: "Contact",
+  title: "We are always listening",
+  description:
+    "Have questions about booking, need support, or want to collaborate? Send us a message.",
+  email: "Email",
+  phoneZalo: "Phone / Zalo",
+  whatsapp: "WhatsApp",
+  address: "Address",
+  addressValue: "162 Trieu Viet Vuong, Hai Ba Trung District, Hanoi",
+  socialTitle: "Social Media",
+  formName: "Full name",
+  formEmail: "Email",
+  formMessage: "Message",
+  formPlaceholderName: "John Doe",
+  formPlaceholderEmail: "hello@example.com",
+  formPlaceholderMessage: "Your message...",
+  maxChars: "Maximum 500 characters",
+  submit: "Send message",
+  success: "Thank you! Your message has been sent successfully.",
+  fillAllFields: "Please fill in all fields.",
+  genericError: "Something went wrong. Please try again later.",
+};
