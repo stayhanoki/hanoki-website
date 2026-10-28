@@ -46,7 +46,7 @@ export default {
       },
       {
         title: "Nhận phòng sớm & trả phòng muộn",
-        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có thể phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 24hort default {
+        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 24h để kiểm tra lịch trống." }
   breadcrumbHome: "Trang chủ",
   breadcrumbRooms: "Phòng nghỉ",
   notFound: "Không tìm thấy phòng",
