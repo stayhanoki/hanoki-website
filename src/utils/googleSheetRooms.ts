@@ -52,16 +52,14 @@ function getValue(row: Record<string, string>, ...keys: string[]): string {
 
 function parseBoolean(val: string): boolean {
   const v = val.trim().toLowerCase();
-  if (!v) return true;
-  if (
-    v === "false" ||
-    v === "không" ||
-    v === "khong" ||
-    v === "no" ||
-    v === "0"
-  ) {
+  if (["false", "không", "khong", "no", "0", "hết phòng", "unavailable"].includes(v)) {
     return false;
   }
+
+  if (["true", "có", "co", "yes", "1", "available", "còn", "còn phòng"].includes(v)) {
+    return true;
+  }
+
   return true;
 }
 
