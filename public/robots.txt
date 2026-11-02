@@ -7,7 +7,6 @@ Allow: /rooms
 Allow: /room/ha
 Allow: /room/no
 Allow: /room/ki
-Allow: /about
 Allow: /contact
 Allow: /journey
 Sitemap: https://hanoki.com.vn/sitemap.xml
