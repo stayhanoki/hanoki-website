@@ -193,7 +193,7 @@ export default function Rooms() {
                         </span>
                         <span className="text-xs md:text-sm font-normal text-foreground-500">
                           {" "}
-                          {t("perNight")}
+                          {t("perDay")}
                         </span>
                         {room.pricePerHour ? (
                           <div className="flex items-baseline gap-1 mt-0.5">
