@@ -189,7 +189,7 @@ export default function Rooms() {
                           {t("from")}
                         </span>
                         <span className="text-base md:text-lg font-bold text-foreground-800">
-                          {formatPrice(room.pricePerNight)}
+                          {formatPrice(room.pricePerDay)}
                         </span>
                         <span className="text-xs md:text-sm font-normal text-foreground-500">
                           {" "}
