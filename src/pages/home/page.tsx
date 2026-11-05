@@ -26,7 +26,7 @@ export default function Home() {
               "@type": "LodgingBusiness",
               name: "HANOKI Homestay & Cafe",
               description:
-                "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc. Homestay boutique tại Việt Nam với thiết kế Japandi ấm cúng tại Tam Đảo, Sapa, Đà Lạt, Hội An, Phú Quốc.",
+                "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc.",
               url: siteUrl || undefined,
               logo: HANOKI_LOGO,
               image: HERO_IMAGE,
