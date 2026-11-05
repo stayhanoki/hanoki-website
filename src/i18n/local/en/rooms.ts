@@ -22,7 +22,7 @@ export default {
   emptyTitle: "No matching rooms",
   emptyDescription: "Try adjusting or clearing your filters to see all available rooms.",
   from: "From ",
-  perNight: "/ night",
+  perDay: "/ day",
   perHour: "/ first 2 hours",
   priceVaries: "Price varies by date",
   loadMore: "Load more rooms",
