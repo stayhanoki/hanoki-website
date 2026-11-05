@@ -1,4 +1,4 @@
-export const SITE_NAME = "HANOKI Homestay & Cafe";
+export const SITE_NAME = "HANOKI - A Quiet Homestay in Hanoi Old Quarter";
 
 export const getSiteUrl = (): string => {
   const raw = import.meta.env.VITE_SITE_URL as string | undefined;
