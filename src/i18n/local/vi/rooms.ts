@@ -22,7 +22,7 @@ export default {
   emptyTitle: "Không có phòng phù hợp",
   emptyDescription: "Thử thay đổi bộ lọc hoặc xoá bộ lọc để xem tất cả phòng nghỉ nhé.",
   from: "Từ ",
-  perNight: "/ đêm",
+  perDay: "/ ngày",
   perHour: "/ 2 giờ đầu",
   priceVaries: "Giá thay đổi theo ngày",
   loadMore: "Xem thêm phòng",
