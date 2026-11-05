@@ -33,7 +33,7 @@ export default function Footer() {
                   <i className="ri-instagram-line text-sm"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/hanoki.stay"
                   className="w-8 h-8 flex items-center justify-center rounded-full border border-[#f3efe7]/20 hover:border-[#f3efe7]/60 hover:text-white transition-all text-[#f3efe7]/60"
                   aria-label="Facebook"
                 >
