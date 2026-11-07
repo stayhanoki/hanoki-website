@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
-
+    /* Font Homepage heading */
+@font-face {
+  font-family: "UTM Erie Black";
+  src: url("/fonts/UTM-Erie-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,15 +17,6 @@
     --font-heading: 'Cormorant Garamond', Georgia, serif;
     --font-body: 'Cormorant Garamond', Georgia, serif;
     --font-label: 'Inter', system-ui, sans-serif;
-
-    /* Font Homepage heading */
-@font-face {
-  font-family: "UTM Erie Black";
-  src: url("/fonts/UTM-Erie-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
 
     /* Background scale - warm cream (#f7f4ef base).
        Light theme: 50 = lightest (page bg), ascending = darker (elevation/cards) */
