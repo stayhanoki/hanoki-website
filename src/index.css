@@ -11,6 +11,15 @@
     --font-body: 'Cormorant Garamond', Georgia, serif;
     --font-label: 'Inter', system-ui, sans-serif;
 
+    /* Font Homepage heading */
+@font-face {
+  font-family: "UTM Erie Black";
+  src: url("/fonts/UTM-Erie-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
     /* Background scale - warm cream (#f7f4ef base).
        Light theme: 50 = lightest (page bg), ascending = darker (elevation/cards) */
     --background-50: 0.97 0.005 80;
