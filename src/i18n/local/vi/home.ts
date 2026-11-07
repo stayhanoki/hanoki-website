@@ -1,6 +1,6 @@
 export default {
   hero: {
-    tagline: "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc. Phòng nhỏ ấm cúng trong nhà cổ gần Vincom Bà Triệu. Thuê theo giờ hoặc qua đêm",
+    tagline: "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc.",
     bookButton: "BOOK YOUR STAY",
   },
   featured: {
