@@ -46,10 +46,10 @@ export default function HeroSection() {
 
     {/* Left Aligned Content */}
       <div className="relative z-10 text-left px-6">
-        <h1 className="font-erie text-lg sm:text-xl md:text-2xl text-[#f3efe7] leading-relaxed max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
+        <h1 style={{fontFamily: '"UTM Erie Black", sans-serif'}} className="text-left text-lg sm:text-xl md:text-2xl text-[#f3efe7] leading-relaxed max-w-2xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
         </h1>
         <p
-          className="text-sm md:text-base text-[#f3efe7]/70 leading-relaxed max-w-sm mx-auto"
+          className="text-left text-sm md:text-base text-[#f3efe7]/70 leading-relaxed max-w-sm"
         >
           {t("hero.tagline")}
         </p>
