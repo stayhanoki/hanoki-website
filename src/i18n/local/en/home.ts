@@ -1,7 +1,7 @@
 export default {
   hero: {
     title: "At HANOKI, time slows down so you can savor every moment",
-    tagline: "A cozy room in heritage-style house near Vincom Ba Trieu. Available for hourly and overnight stays.",
+    tagline: "A Quiet Stay in Hanoi Old Quarter. Available for hourly and overnight stays.",
     bookButton: "BOOK YOUR STAY",
   },
   featured: {
