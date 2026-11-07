@@ -1,5 +1,6 @@
 export default {
   hero: {
+    title: "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc",
     tagline: "Phòng ấm cúng trong nhà cổ gần Vincom Bà Triệu. Thuê theo giờ hoặc qua đêm.",
     bookButton: "BOOK YOUR STAY",
   },
