@@ -44,16 +44,19 @@ export default function HeroSection() {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-[#2D1F14]/[0.78]" />
 
-   {/* Left Aligned Content */}
-      <div className="container-page relative flex h-full flex-col justify-center pb-24 text-white">
-      <h1 className="max-w-4xl text-left text-3xl font-semibold leading-[1.1] tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-           {t("hero.title")}
-      </h1>
-      <p
-        className="mt-5 max-w-xl text-left text-base leading-relaxed text-white/85 md:text-lg">
-         {t("hero.tagline")}
-      </p>
-    </div>
+      {/* Centered Content */}
+      <div className="relative z-10 text-center px-6">
+        <img
+          src="https://storage.readdy-site.link/project_files/2bca2a75-b0f8-4945-8d11-e66de6960d4a/0bccfa1a-7880-4ca9-ad6b-b50fec8c91a3_compressed_Logo-Hanoki.ai.webp"
+          alt="Hanoki Homestay & Cafe"
+          className="h-20 sm:h-28 md:h-32 lg:h-40 w-auto mx-auto mb-6 drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
+        />
+        <p
+          className="text-sm md:text-base text-[#f3efe7]/70 leading-relaxed max-w-sm mx-auto"
+        >
+          {t("hero.tagline")}
+        </p>
+      </div>
     </section>
   );
 }
