@@ -46,8 +46,8 @@ export default function HeroSection() {
 
    {/* Left Aligned Content */}
       <div className="container-page relative flex h-full flex-col justify-center pb-24 text-white">
-      <h1 className="max-w-5xl text-left text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-          Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
+      <h1 className="max-w-4xl text-left text-3xl font-semibold leading-[1.1] tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+           {t("hero.title")}
       </h1>
       <p
         className="mt-5 max-w-xl text-left text-base leading-relaxed text-white/85 md:text-lg">
