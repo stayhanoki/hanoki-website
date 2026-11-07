@@ -37,7 +37,7 @@ export default function Home() {
             },
             {
               "@type": "WebSite",
-              name: "HANOKI Homestay & Cafe",
+              name: "HANOKI Homestay",
               url: siteUrl || undefined,
               potentialAction: {
                 "@type": "SearchAction",
