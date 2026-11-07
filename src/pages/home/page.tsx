@@ -24,9 +24,9 @@ export default function Home() {
           "@graph": [
             {
               "@type": "LodgingBusiness",
-              name: "HANOKI Homestay & Cafe",
+              name: "HANOKI Homestay",
               description:
-                "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc.",
+                "Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc. Phòng ấm cúng trong nhà cổ gần Vincom Bà Triệu. Thuê theo giờ hoặc qua đêm.",
               url: siteUrl || undefined,
               logo: HANOKI_LOGO,
               image: HERO_IMAGE,
