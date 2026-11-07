@@ -45,21 +45,14 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-[#2D1F14]/[0.78]" />
 
    {/* Left Aligned Content */}
-    <div className="relative z-10 w-full max-w-5xl px-6 md:px-12 lg:px-16 text-left">
-    
-      <h1
-        style={{ fontFamily: '"UTM Erie Black", sans-serif' }}
-        className="text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-[#f3efe7] leading-tight max-w-3xl mb-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
-      >
-        Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
+      <div className="container-page relative flex h-full flex-col justify-center pb-24 text-white">
+      <h1 className="max-w-5xl text-left text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+          Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
       </h1>
-    
       <p
-        className="text-left text-sm sm:text-base md:text-lg text-[#f3efe7]/80 leading-relaxed max-w-2xl"
-      >
-        {t("hero.tagline")}
+        className="mt-5 max-w-xl text-left text-base leading-relaxed text-white/85 md:text-lg">
+         {t("hero.tagline")}
       </p>
-    
     </div>
     </section>
   );
