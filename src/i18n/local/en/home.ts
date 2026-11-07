@@ -1,6 +1,7 @@
 export default {
   hero: {
-    tagline: "At HANOKI, time slows down so you can savor every moment.",
+    title: "At HANOKI, time slows down so you can savor every moment",
+    tagline: "A cozy room in heritage-style house near Vincom Ba Trieu. Available for hourly and overnight stays.",
     bookButton: "BOOK YOUR STAY",
   },
   featured: {
