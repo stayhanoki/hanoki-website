@@ -44,13 +44,10 @@ export default function HeroSection() {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-[#2D1F14]/[0.78]" />
 
-      {/* Centered Content */}
+    {/* Left Aligned Content */}
       <div className="relative z-10 text-center px-6">
-        <img
-          src="https://storage.readdy-site.link/project_files/2bca2a75-b0f8-4945-8d11-e66de6960d4a/0bccfa1a-7880-4ca9-ad6b-b50fec8c91a3_compressed_Logo-Hanoki.ai.webp"
-          alt="Hanoki Homestay & Cafe"
-          className="h-20 sm:h-28 md:h-32 lg:h-40 w-auto mx-auto mb-6 drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
-        />
+        <h1 className="font-heading text-lg sm:text-xl md:text-2xl text-[#f3efe7] leading-relaxed max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">Ở HANOKI, thời gian trôi chậm hơn để bạn có thể tận hưởng trọn vẹn từng khoảnh khắc
+        </h1>
         <p
           className="text-sm md:text-base text-[#f3efe7]/70 leading-relaxed max-w-sm mx-auto"
         >
