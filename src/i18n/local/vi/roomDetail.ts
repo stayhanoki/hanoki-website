@@ -15,7 +15,7 @@ export default {
     items: [
       {
         q: "Nhận phòng, trả phòng & giấy tờ",
-        a: "Nhận phòng từ 14:00 (gói ngày) hoặc 20:00 (gói đêm); trả phòng trước 12:00 (gói ngày) hoặc 09:00 (gói đêm). Vui lòng mang theo giấy tờ tùy thân hợp lệ khi nhận phòng.",
+        a: "Nhận phòng từ 14:00 (gói ngày) hoặc 20:00 (gói đêm); trả phòng trước 12:00 (gói ngày) hoặc 09:00 (gói đêm). Vui lòng xuất trình CCCD/thẻ căn cước, VNeID mức 2 hoặc hộ chiếu của tất cả khách khi nhận phòng. Không nhận khách dưới 18 tuổi không có cha mẹ hoặc người giám hộ đi cùng.",
       },
       {
         q: "Số khách & khách đến thăm",
@@ -28,7 +28,7 @@ export default {
       },
       {
         q: "Hút thuốc, tiếng ồn & an toàn",
-        a: "Không hút thuốc trong phòng. Giữ yên tĩnh từ 22:00 đến 08:00. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
+        a: "Không hút thuốc trong phòng. Phí khử mùi vi phạm: 500.000. Giữ yên tĩnh từ 22:00 đến 08:00. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
       },
       {
         q: "Nhận sớm, trả muộn & gửi hành lý",
@@ -66,7 +66,7 @@ export default {
     items: [
       {
         q: "Nhận phòng, trả phòng & giấy tờ",
-        a: "Nhận phòng từ 14:00 (gói ngày) hoặc 20:00 (gói đêm); trả phòng trước 12:00 (gói ngày) hoặc 09:00 (gói đêm). Vui lòng mang theo giấy tờ tùy thân hợp lệ khi nhận phòng.",
+        a: "Nhận phòng từ 14:00 (gói ngày) hoặc 20:00 (gói đêm); trả phòng trước 12:00 (gói ngày) hoặc 09:00 (gói đêm). Vui lòng xuất trình CCCD/thẻ căn cước, VNeID mức 2 hoặc hộ chiếu của tất cả khách khi nhận phòng. Không nhận khách dưới 18 tuổi không có cha mẹ hoặc người giám hộ đi cùng.",
       },
       {
         q: "Số khách & khách đến thăm",
@@ -79,7 +79,7 @@ export default {
       },
       {
         q: "Hút thuốc, tiếng ồn & an toàn",
-        a: "Không hút thuốc trong phòng. Giữ yên tĩnh từ 22:00 đến 08:00. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
+        a: "Không hút thuốc trong phòng. Phí khử mùi vi phạm: 500.000. Giữ yên tĩnh từ 22:00 đến 08:00. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
       },
       {
         q: "Nhận sớm, trả muộn & gửi hành lý",
@@ -97,7 +97,7 @@ export default {
       },
       {
         title: "Nhận phòng sớm & trả phòng muộn",
-        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 24h để Hanoki kiểm tra lịch trống.",
+        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 1h để Hanoki kiểm tra lịch trống.",
       },
       {
         title: "Bồi thường vật dụng hư hỏng",
@@ -105,7 +105,7 @@ export default {
       },
       {
         title: "Những điều cấm",
-        content: "Không hút thuốc, đốt nến, nhang hoặc sử dụng nguồn lửa trong phòng. Không mang vật nuôi. Không tàng trữ, sử dụng chất cấm; không tổ chức cờ bạc, mại dâm hoặc các hoạt động trái pháp luật. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
+        content: "Không hút thuốc, đốt nến, nhang hoặc sử dụng nguồn lửa trong phòng. Không mang vật nuôi, đồ ăn nặng mùi vào phòng (Phí vệ sinh khi vi phạm: 300.000). Không tàng trữ, sử dụng chất cấm; không tổ chức cờ bạc, mại dâm hoặc các hoạt động trái pháp luật. Không tổ chức tiệc hoặc gây ảnh hưởng đến các phòng khác.",
       },
     ],
   },
