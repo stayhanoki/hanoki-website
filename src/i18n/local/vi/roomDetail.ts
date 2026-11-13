@@ -46,7 +46,7 @@ export default {
       },
       {
         title: "Nhận phòng sớm & trả phòng muộn",
-        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 24h để kiểm tra lịch trống.",
+        content: "Nhận phòng sớm hoặc trả phòng muộn tùy thuộc tình trạng phòng và có phát sinh phụ phí. Vui lòng liên hệ Hanoki trước ít nhất 1h để kiểm tra lịch trống.",
       },
       ],
   },
@@ -101,7 +101,7 @@ export default {
       },
       {
         title: "Bồi thường vật dụng hư hỏng",
-        content: "Khách lưu trú chịu trách nhiệm bồi thường theo giá trị thực tế đối với vật dụng, nội thất hoặc thiết bị bị hư hỏng, mất mát do sử dụng không đúng cách trong thời gian lưu trú tại Hanoki.",
+        content: "Khách lưu trú chịu trách nhiệm bồi thường theo giá trị thực tế đối với vật dụng, nội thất hoặc thiết bị bị hư hỏng, mất mát do sử dụng không đúng cách trong thời gian lưu trú tại Hanoki. Mất chìa khóa bồi thường: 100.000",
       },
       {
         title: "Những điều cấm",
