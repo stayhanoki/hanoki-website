@@ -122,7 +122,13 @@ export default function Navbar() {
           <div className="flex items-center gap-3 md:gap-5">
             <button
               type="button"
-              onClick={openBookingPopup}
+              /*onClick={openBookingPopup}*/
+              onClick={() => {
+                if (typeof window !== "undefined" && (window as any).gtag) {
+                  (window as any).gtag("event", "booking_channel_click");
+                }
+                openBookingPopup();
+              }}
               className="inline-flex items-center px-4 py-1.5 md:px-5 md:py-2 text-xs md:text-sm font-medium tracking-wide transition-all duration-300 whitespace-nowrap bg-[#F3EFE7] text-[#3A2A1E] border border-[#E0D6C8] hover:bg-[#E7DDD0] active:bg-[#DDD0C1] cursor-pointer"
             >
               {t("nav.bookNow")}
