@@ -11,42 +11,7 @@
     
       gtag('config', 'AW-18581865174');
     </script>
-   <!-- Google tag (gtag.js) event - delayed navigation helper -->
-    <script>
-      // Helper function to delay opening a URL until a gtag event is sent.
-      // Hàm đo lường bấm nút .
-      function gtagSendInstagram(url) {
-        var callback = function () {
-          if (typeof url === 'string') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'instagram_click', {
-          'event_callback': callback,
-          'event_timeout': 2000,
-          // <event_parameters>
-        });
-        return false;
-      }
-    </script>
-    <!-- Google tag (gtag.js) event - delayed navigation helper -->
-    <script>
-      // Helper function to delay opening a URL until a gtag event is sent.
-      // Hàm đo lường bấm nút Book .
-      function gtagSendBooking(url) {
-        var callback = function () {
-          if (typeof url === 'string') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'booking_channel_click', {
-          'event_callback': callback,
-          'event_timeout': 2000,
-          // <event_parameters>
-        });
-        return false;
-      }
-    </script>
+
 
     <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
