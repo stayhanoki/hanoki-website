@@ -3,6 +3,11 @@ import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const { t } = useTranslation("common");
+  const handleInstagramClick = () => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "instagram_click");
+    }
+  };
 
   return (
     <footer className="bg-[#3A2A1E] pt-20 pb-10 px-6 md:px-10 lg:px-16">
@@ -27,6 +32,7 @@ export default function Footer() {
                   href="https://www.instagram.com/hanoki.stay/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={handleInstagramClick}
                   className="w-8 h-8 flex items-center justify-center rounded-full border border-[#f3efe7]/20 hover:border-[#f3efe7]/60 hover:text-white transition-all text-[#f3efe7]/60"
                   aria-label="Instagram"
                 >
