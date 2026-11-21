@@ -13,7 +13,11 @@ import {
 export default function Contact() {
   const { t } = useTranslation("contact");
   const siteUrl = getSiteUrl();
-
+  const handleInstagramClick = () => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "instagram_click");
+    }
+  };
   return (
     <div className="min-h-screen bg-background-50">
       <JsonLd
@@ -121,6 +125,7 @@ export default function Contact() {
                 href="https://www.instagram.com/hanoki.stay/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleInstagramClick}
                 aria-label="Instagram"
                 className="w-12 h-12 flex items-center justify-center rounded-full bg-primary-100 text-primary-700 hover:bg-primary-600 hover:text-white transition-colors cursor-pointer"
               >
