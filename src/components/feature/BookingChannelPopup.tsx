@@ -45,7 +45,7 @@ export default function BookingChannelPopup() {
     {
       name: "Agoda",
       sub: "Hanoki Homestay Hanoi",
-      href: "https://www.agoda.com/vi-vn/NewSite/vi-vn/hotel/index/99739130",
+      href: "https://www.agoda.com/sh-app/H6MgxcFNCbq",
       icon: "ri-hotel-line",
       color: "bg-[#2A5AD7]/10 text-[#2A5AD7] border-[#2A5AD7]/20 hover:bg-[#2A5AD7]/15",
     },
