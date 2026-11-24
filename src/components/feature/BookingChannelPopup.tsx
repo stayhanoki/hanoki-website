@@ -43,11 +43,11 @@ export default function BookingChannelPopup() {
       color: "bg-[#25D366]/10 text-[#25D366] border-[#25D366]/20 hover:bg-[#25D366]/15",
     },
     {
-      name: "WhatsApp 2",
-      sub: "+84 866 380 872",
-      href: "https://wa.me/84866380872",
-      icon: "ri-whatsapp-line",
-      color: "bg-[#25D366]/10 text-[#25D366] border-[#25D366]/20 hover:bg-[#25D366]/15",
+      name: "Agoda",
+      sub: "Hanoki Homestay Hanoi",
+      href: "https://www.agoda.com/vi-vn/NewSite/vi-vn/hotel/index/99739130",
+      icon: "ri-hotel-line",
+      color: "bg-[#5392F9]/10 text-[#5392F9] border-[#5392F9]/20 hover:bg-[#5392F9]/15",
     },
     {
       name: "Instagram",
@@ -72,8 +72,8 @@ export default function BookingChannelPopup() {
     },
     {
       name: "Airbnb",
-      sub: isEn ? "Coming soon" : "Sắp mở",
-      href: "",
+      sub: "Hanoki Homestay",
+      href: "https://www.airbnb.com.vn/rooms/1821854783845882245?adults=1&s=67&unique_share_id=7a96e885-732a-43f2-8bd6-ddf0b74abe80",
       icon: "ri-home-smile-line",
       color: "bg-background-200 text-foreground-400 border-background-300 cursor-not-allowed",
       disabled: true,
