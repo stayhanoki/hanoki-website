@@ -76,7 +76,6 @@ export default function BookingChannelPopup() {
       href: "https://www.airbnb.com.vn/rooms/1821854783845882245?adults=1&s=67&unique_share_id=7a96e885-732a-43f2-8bd6-ddf0b74abe80",
       icon: "ri-home-smile-line",
       color: "bg-background-200 text-foreground-400 border-background-300 cursor-not-allowed",
-      disabled: true,
     },
   ];
 
