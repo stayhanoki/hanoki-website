@@ -50,8 +50,8 @@ export default function BookingChannelPopup() {
       color: "bg-[#2A5AD7]/10 text-[#2A5AD7] border-[#2A5AD7]/20 hover:bg-[#2A5AD7]/15",
     },
     {
-      name: "Instagram",
-      sub: "@hanoki.stay [10% Off]",
+      name: "Instagram [10% off]",
+      sub: "@hanoki.stay",
       href: "https://www.instagram.com/hanoki.stay/",
       icon: "ri-instagram-line",
       color: "bg-[#E4405F]/10 text-[#E4405F] border-[#E4405F]/20 hover:bg-[#E4405F]/15",
@@ -71,8 +71,8 @@ export default function BookingChannelPopup() {
       color: "bg-[#1877F2]/10 text-[#1877F2] border-[#1877F2]/20 hover:bg-[#1877F2]/15",
     },
     {
-      name: "Airbnb",
-      sub: "Hanoki Homestay [20% Off for First Booking]",
+      name: "Airbnb [20% off]",
+      sub: "Hanoki Homestay",
       href: "https://www.airbnb.com.vn/rooms/1821854783845882245?adults=1&s=67&unique_share_id=7a96e885-732a-43f2-8bd6-ddf0b74abe80",
       icon: "ri-home-smile-line",
       color: "bg-[#FF385C]/10 text-[#FF385C] border-[#FF385C]/20 hover:bg-[#FF385C]/15",
