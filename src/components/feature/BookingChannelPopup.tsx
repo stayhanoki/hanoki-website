@@ -50,7 +50,7 @@ export default function BookingChannelPopup() {
       color: "bg-[#2A5AD7]/10 text-[#2A5AD7] border-[#2A5AD7]/20 hover:bg-[#2A5AD7]/15",
     },
     {
-      name: "Instagram [10% off]",
+      name: "Insta [10% off]",
       sub: "@hanoki.stay",
       href: "https://www.instagram.com/hanoki.stay/",
       icon: "ri-instagram-line",
